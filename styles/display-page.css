@@ -1,13 +1,39 @@
 body {
 	font-size: 0px;
 }	
-.box {
+.boxm {
 	margin-top: 80px;
-	border: 1px solid black;
-	display: inline-block;
-	max-height: 500px;
-	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
 }
 .green {
-	background: green;
+	background-color: green;
+}
+.blue {
+	background-color: blue;
+}
+.gray {
+	background-color: gray;
+}
+.black {
+	background-color: black;
+}
+.orange {
+	background-color: orange;
+}
+.row {
+	text-align: center;
+}
+.firstl {
+	width: 50%;
+	height: 200px;
+}
+.secondl {
+	width: 33.33%;
+	height: 300px;
+}
+.box {
+	border: 1px solid black;
+	display: inline-block;
 }
