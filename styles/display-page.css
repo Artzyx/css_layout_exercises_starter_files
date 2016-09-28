@@ -1,0 +1,13 @@
+body {
+	font-size: 0px;
+}	
+.box {
+	margin-top: 80px;
+	border: 1px solid black;
+	display: inline-block;
+	max-height: 500px;
+	max-width: 800px;
+}
+.green {
+	background: green;
+}
