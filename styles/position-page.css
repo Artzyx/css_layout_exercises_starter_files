@@ -1,1 +1,37 @@
+.navbox {
+	padding-right: 60px;
+	padding-left: 60px;
 
+}
+nav {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: gray;
+
+}
+.img-circle {
+	border-radius: 50%;
+	border: 2px solid black;
+	height: 40px;
+	margin-top: 4px;
+	margin-bottom: 4px;	
+	vertical-align: middle;
+
+}
+nav ul {
+	list-style: none;
+	display: inline-block;
+}
+nav li{
+	display: inline-block;
+
+}
+li::after{
+	content: "|";
+	margin-left: 5px;
+}
+body {
+	background: url(../images/outerspace_landscape.jpeg) no-repeat;
+	background-size: cover;
+}
